@@ -2,4 +2,61 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  align-content: baseline;
 }
+
+.Header{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 120px;
+  height: 12vh;
+}
+
+.Header-info{
+  display: flex;
+  align-items: center;
+  font-size: large;
+  font-weight: 100;
+}
+
+.Header-info a{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  margin-right: 80px;
+  color: gray;
+}
+
+.hero-section{
+  height: 100vh;
+  width: inherit;
+  background-color: green;
+}
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.child{
+  width: 30vw;
+  height: 45vh;
+  background-color: rgb(60,60,60);
+  align-items:center ;
+  margin: 150px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  border-top-left-radius:5% ;
+  border-bottom-right-radius: 5%;
+  padding: 7%;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.child:hover{
+  opacity: 0.5;
+}
+.child:active{
+  background-color: purple
+}
+
